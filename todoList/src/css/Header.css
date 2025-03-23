@@ -1,0 +1,25 @@
+.header_container {
+  width: 100vh;
+  height: 20vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.header_container div {
+  width: 100%;
+  height: 49%;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  border: 1px dotted red;
+  display: flex;
+  align-items: center;
+}
+
+.header_container div:last-child p:last-child {
+  color: rgb(0, 183, 255);
+  font-size: 35px;
+}
