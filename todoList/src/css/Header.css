@@ -1,7 +1,6 @@
 .header_container {
   width: 60vh;
-  height: 20vh;
-  border: 1px solid red;
+  height: 15vh;
   display: flex;
   justify-content: left;
   flex-direction: column;
@@ -14,7 +13,6 @@
   font-weight: bold;
   font-size: 18px;
   color: black;
-  border: 1px dotted red;
   display: flex;
   align-items: center;
 }

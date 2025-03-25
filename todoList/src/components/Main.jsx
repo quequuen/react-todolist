@@ -10,6 +10,45 @@ const Main = () => {
         <div className="p_div">
           <p>Todo List🌱</p>
         </div>
+        <div className="main_contents">
+          <input
+            type="text"
+            className="search_input"
+            placeholder="검색어를 입력해주세요"
+          />
+          <div className="lists">
+            <div>
+              <div className="first_p">
+                <input type="checkbox" name="0" />
+                <p>React 공부하기</p>
+              </div>
+              <div>
+                <p>2025.3.22.</p>
+                <button className="delete">삭제</button>
+              </div>
+            </div>
+            <div>
+              <div className="first_p">
+                <input type="checkbox" name="0" />
+                <p>TypeScript 공부하기</p>
+              </div>
+              <div>
+                <p>2025.3.22.</p>
+                <button className="delete">삭제</button>
+              </div>
+            </div>
+            <div>
+              <div className="first_p">
+                <input type="checkbox" name="0" />
+                <p>Next.js 공부하기</p>
+              </div>
+              <div>
+                <p>2025.3.22.</p>
+                <button className="delete">삭제</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
