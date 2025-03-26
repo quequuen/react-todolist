@@ -19,7 +19,7 @@ const Main = () => {
           <div className="lists">
             <div>
               <div className="first_p">
-                <input type="checkbox" name="0" />
+                <input type="checkbox" />
                 <p>React 공부하기</p>
               </div>
               <div>
@@ -29,7 +29,7 @@ const Main = () => {
             </div>
             <div>
               <div className="first_p">
-                <input type="checkbox" name="0" />
+                <input type="checkbox" />
                 <p>TypeScript 공부하기</p>
               </div>
               <div>
@@ -39,7 +39,7 @@ const Main = () => {
             </div>
             <div>
               <div className="first_p">
-                <input type="checkbox" name="0" />
+                <input type="checkbox" />
                 <p>Next.js 공부하기</p>
               </div>
               <div>
